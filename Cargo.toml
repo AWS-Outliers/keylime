@@ -1,0 +1,12 @@
+[package]
+name = "keylime"
+version = "0.0.1"
+edition = "2021"
+
+[profile.release]
+debug = true
+
+[dependencies]
+tokio = { version = "1.37.0", features = ["full"] }
+fs2 = "0.4.0"
+base64 = "0.22.1"
